@@ -59,14 +59,8 @@ public class CamerakitPlugin extends CordovaPlugin {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent intent) {
         super.onActivityResult(requestCode, resultCode, intent);
-
             if(requestCode == 99){
-                if(intent == null){
-
-
-
-
-                }else {
+                if(intent !== null){
                     imagepath = intent.getExtras().get("imagepath").toString();
                     File image = new File(imagepath);
                     BitmapFactory.Options bmOptions = new BitmapFactory.Options();
@@ -79,9 +73,5 @@ public class CamerakitPlugin extends CordovaPlugin {
                     this.echo(resulted, callback);
                 }
             }
-
-
     }
-
-
 }

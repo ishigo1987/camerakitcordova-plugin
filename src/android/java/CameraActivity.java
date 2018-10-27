@@ -216,10 +216,8 @@ public class CameraActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         String imagepath="";
         if(requestCode == 99){
-            if(data == null){
-
-            }else {
-                imagepath = data.getStringExtra("imagepath");
+            if(data !== null){
+				imagepath = data.getStringExtra("imagepath");
                 Intent i = new Intent();
                 i.putExtra("imagepath", imagepath);
                 setResult(99, i);
