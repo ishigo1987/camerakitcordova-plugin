@@ -8,9 +8,9 @@ Refer Usage in Demo App
 
 ## Screenshot
 
-![preview](https://raw.githubusercontent.com/Kuldeep-Kumar/camerakit-cordova-plugin/master/screenshots/short_page.png)
+![preview](https://raw.githubusercontent.com/Kuldeep-Kumar-Sharma/camerakit-cordova-plugin/master/screenshots/short_page.png)
 
-![preview](https://raw.githubusercontent.com/Kuldeep-Kumar/camerakit-cordova-plugin/master/screenshots/preview_page.png)
+![preview](https://raw.githubusercontent.com/Kuldeep-Kumar-Sharma/camerakit-cordova-plugin/master/screenshots/preview_page.png)
 
 
 ## Usage
