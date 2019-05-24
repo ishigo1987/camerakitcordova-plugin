@@ -57,7 +57,7 @@
        
         <source-file src="src/android/res/values/attr.xml" target-dir="res/values"/>
         <source-file src="src/android/res/values/colors.xml" target-dir="res/values"/>
-        <source-file src="src/android/res/values/strings_camera_kit.xml" target-dir="res/values"/>
+<!--         <source-file src="src/android/res/values/strings_camera_kit.xml" target-dir="res/values"/> -->
         <source-file src="src/android/res/values/styles.xml" target-dir="res/values"/>
 
 
